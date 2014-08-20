@@ -1,0 +1,20 @@
+{
+    "name": "clearvox/whiz",
+    "description": "A Laravel Artisan Shell",
+    "authors": [
+        {
+            "name": "Leon Rowland",
+            "email": "leon@rowland.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Clearvox\\Whiz\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
