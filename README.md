@@ -21,14 +21,12 @@ I didn't commit the shell script because it requires the full path to your appli
 <?php
 
 require '/path/to/laravel/bootstrap/autoload.php';
+
 $app = require_once '/path/to/laravel/bootstrap/start.php';
-
 $app->setRequestForConsoleEnvironment();
+
 $shell = new Symfony\Component\Console\Shell(Clearvox\Whiz\Application::start($app));
-
 $shell->run();
-
-
 ```
 
 ## Restricted Artisan Commands
