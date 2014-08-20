@@ -11,10 +11,10 @@ Add the WhizServiceProvider to your providers in app.php
 
 I didn't commit the shell script because it requires the full path to your application.
 
-Change the path location in the script below.
-Move it to /bin
-Edit /etc/shells
-Use chsh or edit /etc/passwd
+* Change the path location in the script below.
+* Move it to /bin
+* Edit /etc/shells
+* Use chsh or edit /etc/passwd
 
 ```php
 #!/usr/bin/env php
